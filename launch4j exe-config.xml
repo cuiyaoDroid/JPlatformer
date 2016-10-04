@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>JPlatformer.jar</jar>
+  <outfile>JPlatformer.exe</outfile>
+  <errTitle>Error</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>icon.ico</icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.1.0</fileVersion>
+    <txtFileVersion>1.01</txtFileVersion>
+    <fileDescription>JPlatformer</fileDescription>
+    <copyright>Copyright © 2016 Stefan Hösemann</copyright>
+    <productVersion>1.0.1.0</productVersion>
+    <txtProductVersion>1.01</txtProductVersion>
+    <productName>JPlatformer</productName>
+    <companyName>Stefan Hösemann</companyName>
+    <internalName>JPlatformer</internalName>
+    <originalFilename>JPlatformer.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>
