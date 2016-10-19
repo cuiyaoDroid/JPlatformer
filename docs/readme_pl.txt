@@ -10,9 +10,9 @@ SPIS
 3) Kontakt
 4) Licencja
 
-==================
-1) ABOUT THE GAME
-==================
+==========
+1) O GRZE
+==========
 
 JPlatformer is a classic platform game based on traditional jump 'n' run gameplay
 mechanics. The game is all about collecting score, avoiding deadly creatures and
@@ -22,30 +22,30 @@ enables you to create, test and play your own worlds.
 JPlatformer is written in Java and runs on all supported platforms. Java 8 or later
 versions are required for running the game.
 
-============
+==============
 2) STEROWANIE
-============
+==============
 
 Sterowanie w grze:
 
-- Poruszanie w lewo   -> Lewa strzałka
-- Poruszanie w prawo  -> Prawa strzałka
-- Skok                -> Spacja
-- Uzy         	      -> Górna strzałka
-- Menu pauzy  -> Escape, P
-- Zoom kamery -> Kólko myszki, Plus / Minus
+- Poruszanie w lewo  -> Lewa strzałka
+- Poruszanie w prawo -> Prawa strzałka
+- Skok               -> Spacja
+- Uzy                -> Górna strzałka
+- Menu pauzy         -> Escape, P
+- Zoom kamery        -> Kólko myszki, Plus / Minus
 
 Sterowanie edytora:
 
-- Otwórz / Schowaj panel     -> Ctrl + H
-- Połóż wybrany element      -> Lewy przycisk myszy
-- Usuń wybrany element       -> Prawy przycisk myszy
-- Połóż obiekt               -> Alt
-- Zaznacz obiekty            -> Ctrl + Lewy przycisk myszy
-- Rusz kamerą             -> Kółko muszy (wciśnięte), Q
-- Zoom kamerą             -> Kółko myszy (skrolowanie), Plus / Minus
-- Zmień wysokość wody        -> W
-- Zpauzuj gre              -> Escape, P
+- Otwórz / Schowaj panel -> Ctrl + H
+- Połóż wybrany element  -> Lewy przycisk myszy
+- Usuń wybrany element   -> Prawy przycisk myszy
+- Połóż obiekt           -> Alt
+- Zaznacz obiekty        -> Ctrl + Lewy przycisk myszy
+- Rusz kamerą            -> Kółko muszy (wciśnięte), Q
+- Zoom kamerą            -> Kółko myszy (skrolowanie), Plus / Minus
+- Zmień wysokość wody    -> W
+- Zpauzuj gre            -> Escape, P
 
 ===========
 3) KONTAKT
@@ -58,9 +58,9 @@ stefanhoesemann@gmail.com
 
 Check out my website if you like: http://www.stefanhoesemann.com/
 
-===========
+============
 4) LICENCJA
-===========
+============
 
 Copyright (c) 2016 Stefan Hösemann
 
