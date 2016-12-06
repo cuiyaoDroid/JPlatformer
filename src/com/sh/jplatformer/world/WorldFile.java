@@ -37,8 +37,8 @@ public class WorldFile
 	//==========
 	/**
 	 * Saves the specified world to a file.
-	 * @param worldController the world to save.
 	 * @param path the path of the file relative to the root directory of the application.
+	 * @param worldController the world to save.
 	 */
 	public static void saveWorld( String path, WorldController worldController )
 	{
@@ -115,8 +115,8 @@ public class WorldFile
 	/**
 	 * Loads a world from a world file into the specified {@code WorldController}. If an error
 	 * occurred, the world is reset.
-	 * @param worldController the {@code WorldController} to load the world into.
 	 * @param path the absolute path of the file.
+	 * @param worldController the {@code WorldController} to load the world into.
 	 * @return {@code false} if an error occurred. 
 	 */
 	@SuppressWarnings("unchecked")

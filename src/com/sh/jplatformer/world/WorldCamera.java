@@ -298,7 +298,7 @@ public class WorldCamera extends OrthographicCamera implements Serializable
 	//========
 	/**
 	 * Projects a {@code Vector2} of map coordinates to screen coordinates.
-	 * @param area the {@code Vector2} to transform.
+	 * @param vector the {@code Vector2} to transform.
 	 * @return the projected {@code Vector2}.
 	 */
 	public Vector2 project( Vector2 vector )

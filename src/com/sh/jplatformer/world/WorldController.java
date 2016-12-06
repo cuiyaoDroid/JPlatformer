@@ -106,7 +106,6 @@ public class WorldController implements Serializable
 	 * Resets the world and creates a new one.
 	 * @param columns the new number of columns of the {@code Map}.
 	 * @param rows the new number of rows of the {@code Map}.
-	 * @param title the title of the {@code Map}.
 	 */
 	public void createWorld( int columns, int rows )
 	{
@@ -852,7 +851,7 @@ public class WorldController implements Serializable
 	// getHoveredMapObject
 	//====================
 	/**
-	 * @return the edit mode of this {@code EditorWindow}.
+	 * @return the {@code MapObject} that is currently hovered.
 	 */
 	public MapObject getHoveredMapObject()
 	{

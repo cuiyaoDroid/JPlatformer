@@ -35,8 +35,8 @@ public class RecordsMenu extends Table
 	// Constructor
 	//============
 	/**
-	 * Constructs a new {@code PauseMenu}.
-	 * @param newGameStage the {@code RecordsMenu} that is responsible for this menu.
+	 * Constructs a new {@code RecordsMenu}.
+	 * @param newGameStage the {@code GameStage} that is responsible for this menu.
 	 */
 	public RecordsMenu( GameStage newGameStage )
 	{

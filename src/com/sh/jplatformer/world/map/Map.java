@@ -77,7 +77,6 @@ public class Map implements Serializable
 	 * Creates a new {@code Map}.
 	 * @param newColumns the number of columns of the map.
 	 * @param newRows the number of rows of the map.
-	 * @param newTitle the title of the map.
 	 */
 	public Map( int newColumns, int newRows )
 	{
@@ -90,7 +89,6 @@ public class Map implements Serializable
 	 * Resets all properties and resizes the map.
 	 * @param newColumns the number of columns of the map.
 	 * @param newRows the number of rows of the map.
-	 * @param newTitle the title of the map.
 	 */
 	public void reset( int newColumns, int newRows )
 	{		
@@ -393,9 +391,6 @@ public class Map implements Serializable
 	
 	// setForegroundFile
 	//==================
-	/**
-	 * @param path the path of the foreground image file within the root directory of the application.
-	 */
 	public void setForegroundFile( String fileName )
 	{
 		foregroundFile = fileName;

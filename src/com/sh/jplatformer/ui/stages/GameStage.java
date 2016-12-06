@@ -17,7 +17,7 @@ import com.sh.jplatformer.world.WorldFile;
 import com.sh.jplatformer.world.map.MapPopup;
 
 /**
- * The {@code GameStage} provides an interface layer for game mode.
+ * The {@code GameStage} provides an interface layer for the game mode.
  * @author Stefan Hösemann
  */
 
@@ -50,7 +50,7 @@ public class GameStage extends Stage
 	// Constructor
 	//============
 	/**
-	 * Constructs a new {@code DisplayStage}.
+	 * Constructs a new {@code GameStage}.
 	 * @param newWorldController the {@code WorldController} that contains the world data.
 	 */
 	public GameStage( WorldController newWorldController )

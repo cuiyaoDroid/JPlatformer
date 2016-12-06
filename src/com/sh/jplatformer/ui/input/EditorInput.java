@@ -47,14 +47,14 @@ public class EditorInput extends InputAdapter
 	//============
 	/**
 	 * Constructs a new {@code MapEditorInput}
-	 * @param newEditorWindow the {@code EditorWindow} to work with.
+	 * @param newEditorStage the {@code EditorStage} to work with.
 	 */
-	public EditorInput( EditorStage newEditorWindow )
+	public EditorInput( EditorStage newEditorStage )
 	{	
 		// World / UI
 		//===========
-		editorStage     = newEditorWindow;
-		worldController = newEditorWindow.getWorldController();
+		editorStage     = newEditorStage;
+		worldController = newEditorStage.getWorldController();
 		
 		// Drag area
 		//==========
@@ -64,10 +64,10 @@ public class EditorInput extends InputAdapter
 		
 		// Vectors
 		//========
-		mousePos_screen       = new Vector2();
-		mousePos_map          = new Vector2();
-		mousePos_tmp          = new Vector3();
-		scrollCenter          = new Vector2();
+		mousePos_screen = new Vector2();
+		mousePos_map    = new Vector2();
+		mousePos_tmp    = new Vector3();
+		scrollCenter    = new Vector2();
 		
 		this.update();
 	}

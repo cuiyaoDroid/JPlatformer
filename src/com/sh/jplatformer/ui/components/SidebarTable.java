@@ -14,7 +14,6 @@ public class SidebarTable extends Table
 	//============
 	/**
 	 * Constructs a new {@code FormTable}.
-	 * @param skin the {@code Skin} of the list.
 	 */
 	public SidebarTable()
 	{

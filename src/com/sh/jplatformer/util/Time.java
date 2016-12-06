@@ -10,10 +10,9 @@ public class Time
 	// toString
 	//=========
 	/**
-	 * 
 	 * @param ms the time to transform in milliseconds.
-	 * @return the time {@code String} in the format of {@code HH:MM:SS}. If the hours value is	0,
-	 * it will not be included in the string.
+	 * @return the time {@code String} in the format of {@code HH:MM:SS}. If the
+	 * hours value is 0, it will not be included in the {@code String}.
 	 */
 	public static String toString( long ms )
 	{

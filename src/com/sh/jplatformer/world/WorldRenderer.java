@@ -118,7 +118,7 @@ public class WorldRenderer
 	//==========
 	/**
 	 * Draws the water.
-	 * @param spriteBatch the {@code SpriteBatch} to draw.
+	 * @param spriteBatch the {@code SpriteBatch} to render.
 	 */
 	private void drawWater( SpriteBatch spriteBatch )
 	{
@@ -270,7 +270,7 @@ public class WorldRenderer
 	//===============
 	/**
 	 * Draws all {@code MapObjects}.
-	 * @param batch the {@code SpriteBatch} to draw sprites with.
+	 * @param batch the {@code SpriteBatch} to render.
 	 */
 	private void drawMapObjects( SpriteBatch batch )
 	{
