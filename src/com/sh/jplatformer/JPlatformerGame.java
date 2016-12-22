@@ -64,7 +64,7 @@ public class JPlatformerGame extends Game
 		// Clear screen
 		//=============
 		Gdx.gl20.glClearColor( 0.07f, 0.075f, 0.08f, 1f );
-		Gdx.gl20.glClear( GL20.GL_COLOR_BUFFER_BIT  );
+		Gdx.gl20.glClear( GL20.GL_COLOR_BUFFER_BIT );
 		
 		// Render screen
 		//==============

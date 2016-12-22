@@ -15,7 +15,7 @@ import com.sh.jplatformer.ui.stages.MainMenuStage;
 import com.sh.jplatformer.util.Lang;
 
 /**
- * The {@code SettingMenu} offers an UI to modify a variety configuration attributes.
+ * The {@code SettingsMenu} offers an UI to modify a variety configuration attributes.
  * @author Stefan Hösemann
  */
 

@@ -3,8 +3,8 @@ package com.sh.jplatformer.ui.components;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
 /**
-* The {@code SidebarTable} overrides the original libGDX {@code Table} and comes with predefined
-* properties adapted for the editor {@code SidebarWindow} UI.
+* The {@code SidebarTable} overrides the original libGDX {@code Table} and comes
+* with predefined properties adapted for the editor {@code SidebarWindow} UI.
 * @author Stefan Hösemann
  */
 
@@ -13,7 +13,7 @@ public class SidebarTable extends Table
 	// Constructor
 	//============
 	/**
-	 * Constructs a new {@code FormTable}.
+	 * Constructs a new {@code SidebarTable}.
 	 */
 	public SidebarTable()
 	{

@@ -46,7 +46,7 @@ public class EditorInput extends InputAdapter
 	// Constructor
 	//============
 	/**
-	 * Constructs a new {@code MapEditorInput}
+	 * Constructs a new {@code EditorInput}
 	 * @param newEditorStage the {@code EditorStage} to work with.
 	 */
 	public EditorInput( EditorStage newEditorStage )

@@ -30,7 +30,7 @@ public class SidebarWindow extends Table
 	// Constructor
 	//============
 	/**
-	 * Constructs a new {@code MapEditorWindow}.
+	 * Constructs a new {@code SidebarWindow}.
 	 * @param worldController the {@code WorldController} to modify.
 	 */
 	public SidebarWindow( Skin skin, WorldController worldController )
